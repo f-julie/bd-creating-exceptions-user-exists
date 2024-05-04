@@ -8,6 +8,7 @@ public class UserExistsException extends Exception {
 
     public UserExistsException() {
         //implement this method
+        super();
     }
 
     public UserExistsException(String message) {
