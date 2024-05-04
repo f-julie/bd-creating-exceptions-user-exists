@@ -12,13 +12,16 @@ public class UserExistsException extends Exception {
 
     public UserExistsException(String message) {
         //implement this method
+        super(message);
     }
 
     public UserExistsException(String message, Throwable e) {
         //implement this method
+        super(message, e);
     }
 
     public UserExistsException(Throwable e) {
         //implement this method
+        super(e);
     }
 }
