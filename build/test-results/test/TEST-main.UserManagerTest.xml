@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="main.UserManagerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-04T16:50:20" hostname="DESKTOP-URGQT26" time="0.278">
-  <properties/>
-  <testcase name="createUser_withUnusedEmail_createsUserSuccessfully()" classname="main.UserManagerTest" time="0.258"/>
-  <testcase name="createUser_withEmailInUse_throwsUserExistsException()" classname="main.UserManagerTest" time="0.017"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
